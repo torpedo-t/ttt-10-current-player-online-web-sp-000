@@ -10,9 +10,9 @@ end #returns the number of turns that have been played
 
 def current_player(board)
   if turn_count(board) % 2 == 0
-  current_player == "X"
+  current_player(board) == "X"
 else
-  current_player == "O"
+  current_player(board) == "O"
 end
-current_player
+current_player(board)
 end
