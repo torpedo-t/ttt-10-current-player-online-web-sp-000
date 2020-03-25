@@ -7,3 +7,12 @@ counter += 1
 end
 counter
 end #returns the number of turns that have been played
+
+def current_player(board)
+  if turn_count(board) % 2 == 0
+  current_player == "0"
+else
+  current_player == "X"
+end
+current_player
+end
